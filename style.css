@@ -1,0 +1,157 @@
+body {
+    background: linear-gradient(90deg, rgb(45, 41, 68) 0%, rgb(143, 134, 205) 100%);
+    margin: 0;
+}
+
+section {
+    width: 60%;
+    justify-content: center;
+    display: flex;
+    padding-left: 20%;
+    padding-right: 20%;
+    padding-top: 10%;
+    place-items: center;
+   
+
+}
+
+
+article {
+    width: 30vw;
+    height: 50vh;
+    border-radius: 10px;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    margin: -2%;
+    box-shadow: 4px 4px 20px -6px rgb(0 0 0 / 56%);
+
+}
+article p:first-of-type {
+padding-top: 50px;
+    margin: 0;
+}
+
+article p:nth-of-type(2) {
+    font-size: 2.9rem;
+    margin: 0;
+}
+
+
+
+
+
+.blue-card {
+   
+    animation-name: card-1;
+    animation-duration: 5s;
+    animation-timing-function: ease;
+    animation-iteration-count: infinite;
+    background: linear-gradient(45deg, rgb(70, 89, 172) 0%, rgb(131, 224, 255) 100%);
+}
+
+.purple-card {
+    animation-name: card-2;
+    animation-duration: 5s;
+    animation-timing-function: ease;
+    animation-iteration-count: infinite;
+    background: linear-gradient(72deg, rgb(251, 161, 205) 0%, rgb(138, 75, 170) 100%);
+    
+
+}
+
+.orange-card {
+    animation-name: card-3;
+    animation-duration: 5s;
+    animation-timing-function: ease;
+    animation-iteration-count: infinite;
+    background: linear-gradient(45deg, rgb(243, 135, 135) 0%, rgb(243, 194, 131) 100%);
+    
+}
+
+button {
+    width: 20vw;
+    height: 6vh;
+    border: none;
+    border-radius: 50px;
+    margin-top: 50px;
+
+}
+
+.first-button{
+    animation-name: button-1;
+    animation-duration: 5s;
+    animation-timing-function: ease;
+    animation-iteration-count: infinite;
+}
+
+.second-button{
+    animation-name: button-2;
+    animation-duration: 5s;
+    animation-timing-function: ease;
+    animation-iteration-count: infinite;
+}
+
+.third-button{
+    animation-name: button-3;
+    animation-duration: 5s;
+    animation-timing-function: ease;
+    animation-iteration-count: infinite;
+}
+
+a{
+    color: grey;
+    text-decoration: none;
+    font-size: 14pt;
+}
+
+@keyframes card-1 {
+
+    0% {height:50vh; z-index: 0;}
+    25% { height:60vh;z-index: 1;}
+    50% { height:50vh; z-index: 0;}
+    75%{height: 50vh;z-index: 0;}
+    100% {height:50vh; z-index: 0;}
+}
+
+@keyframes card-2 {
+
+    0% {height:50vh; z-index: 0;}
+    25% { height:50vh; z-index: 0; }
+    50% { height:60vh;z-index: 1; }
+    75%{height: 50vh; z-index: 0;}
+    100% {height:50vh;  z-index: 0;}
+}
+
+@keyframes card-3 {
+
+    0% {height:50vh; z-index: 0;}
+    25% { height:50vh;  z-index: 0;}
+    50% { height:50vh; z-index: 0; }
+    75%{height: 60vh;z-index: 1;}
+    100% {height:50vh;  z-index: 0;}
+}
+
+@keyframes button-1 {
+    0% {margin-top: 50px;}
+    25% {margin-top: 150px;}
+    50% {margin-top: 50px;}
+    75%{margin-top: 50px;}
+    100%{margin-top: 50px;}
+}
+
+@keyframes button-2 {
+    0% {margin-top: 50px;}
+    25% {margin-top: 50px;}
+    50% {margin-top: 150px;}
+    75%{margin-top: 50px;}
+    100%{margin-top: 50px;}
+}
+
+@keyframes button-3 {
+    0% {margin-top: 50px;}
+    25% {margin-top: 50px;}
+    50% {margin-top: 50px;}
+    75%{margin-top: 150px;}
+    100%{margin-top: 50px;}
+}
